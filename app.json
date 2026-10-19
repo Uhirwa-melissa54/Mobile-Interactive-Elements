@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Form Elements Showcase",
+    "slug": "form-elements-showcase",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "Try biometric authentication in the form showcase."
+      }
+    },
+    "android": { "package": "com.example.formshowcase" },
+    "plugins": [
+      "expo-image-picker",
+      "expo-location",
+      "expo-audio",
+      "@react-native-community/datetimepicker"
+    ]
+  }
+}
